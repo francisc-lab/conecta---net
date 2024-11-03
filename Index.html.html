@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conecta Net</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: bold;
+            color: #4285f4;
+            text-align: center;
+        }
+
+        .search-container {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 10px;
+            font-size: 18px;
+            border: 1px solid #dcdcdc;
+            border-radius: 24px;
+            outline: none;
+            transition: box-shadow 0.3s;
+        }
+
+        .search-input:focus {
+            box-shadow: 0 0 8px rgba(66, 133, 244, 0.6);
+        }
+
+        .search-button {
+            padding: 10px 20px;
+            margin-left: 10px;
+            font-size: 18px;
+            border: none;
+            background-color: #4285f4;
+            color: #fff;
+            border-radius: 24px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .search-button:hover {
+            background-color: #357ae8;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">Conecta Net</div>
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Pesquise no Conecta Net">
+        <button class="search-button">Pesquisar</button>
+    </div>
+</body>
+</html>
